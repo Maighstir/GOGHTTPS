@@ -4,8 +4,6 @@
 
   <rule from="^https://(?:(?:www|static[0-9]*)\.)?gog\.com/(.+)" to="https://secure.gog.com/$1" />
   <rule from="^http://(?:(?:www|secure|static[0-9]*)\.)?gog\.com/(.+)" to="https://secure.gog.com/$1" />
-  <rule from="^http://(servant-[0-9]+)\.gog\.com/(.*)" to="https://$1.gog.com/$2" />
-  <rule from="^https://(?:(?:www|secure)\.)?gog\.com/?$" to="http://www.gog.com" downgrade="1" />
 
   <securecookie host="^\.gog\.com$" name=".*" />
 </ruleset>
